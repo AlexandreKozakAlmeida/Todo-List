@@ -1,130 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 /*********** RESET *********/
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
 :root {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 .container {
-    display: flex;
-    margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
 }
 
 body {
-    background-color: #000000;
-    color: #f5deb3;
+  background-color: #000000;
+  color: #f5deb3;
 
-    text-align: center;
- }
+  text-align: center;
+}
 
 /************ PRINCIPAL SECTION ****/
 
 #principal .container {
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-    width: 50vw;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  width: 50vw;
 
-    margin: 15% auto;
-    
-    background-color: #53515185;
+  margin: 15% auto;
+
+  background-color: #53515185;
 }
 
 #principal .container .title {
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
 }
 
 #principal .container .input {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    
-    width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+
+  width: 30rem;
 }
 
 #principal .container .input input {
-    width: 25rem;
-    height: 4rem;
+  width: 25rem;
+  height: 4rem;
 
-    background-color: #53515195;
-    border: 1px solid #000000;
-    border-radius: .7rem;
+  background-color: #53515195;
+  border: 1px solid #000000;
+  border-radius: 0.7rem;
 
-    padding: 1rem;
-    
-    outline: none;
+  padding: 1rem;
 
-    color: #ffffff;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
+  outline: none;
+
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 #principal .container .input button {
-    height: 4rem;
-    width: 4rem;
-   
-    border-radius: .7rem;
-    border: 1px solid #000000;
-   
-    background-color: #53515195;
-    color: #ffffff;
+  height: 4rem;
+  width: 4rem;
 
-    cursor: pointer;
+  border-radius: 0.7rem;
+  border: 1px solid #000000;
+
+  background-color: #53515195;
+  color: #ffffff;
+
+  cursor: pointer;
 }
 
 #tasksList li {
-   display: flex;
-   
-   align-items: center;
-   justify-content: space-between;
-   width: 30rem;
-   height: 4rem;
+  display: flex;
 
-   padding: 1rem;
-   margin-bottom: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 30rem;
+  height: 4rem;
 
-   border: 1px solid #000000;
-   border-radius: .7rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
 
-   font-size: 1.5rem;
-   gap: 1rem;
+  border: 1px solid #000000;
+  border-radius: 0.7rem;
 
-   background-color: #53515195;
-   font-family: 'Lato', sans-serif;
-   font-weight: 400;
+  font-size: 1.5rem;
+  gap: 1rem;
+
+  background-color: #53515195;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
 }
 
 #tasksList .buttons button {
-    height: 2.5rem;
-    width: 2.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
 
-    cursor: pointer;
-    border-radius: 2rem;
-    border: 1px solid #000000;
+  cursor: pointer;
+  border-radius: 2rem;
+  border: 1px solid #000000;
 }
-   
+
 @media screen and (min-width: 534px) and (max-width: 732px) {
-    #principal .container {
-        width: 79%;
-    }
+  #principal .container {
+    width: 79%;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 533px) {
-    #principal .container {
-        width: 97%;
-    }
+  #principal .container {
+    width: 97%;
+  }
 }
-
-

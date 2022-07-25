@@ -1,48 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/707a7d409b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/707a7d409b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Todo List</title>
-</head>
-<body>
+  </head>
+  <body>
     <main id="principal">
-        <div class="container">
-            
-            <div class="title">
-                <h1>Create your to-do list</h1>
+      <div class="container">
+        <div class="title">
+          <h1>Create your to-do list</h1>
+        </div>
+
+        <div class="input">
+          <input type="text" id="newTask" placeholder="Add new task" />
+          <button id="buttonAddTask">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+        <ul id="tasksList">
+          <li>
+            <span class="taskText"> First Task </span>
+            <div class="buttons">
+              <button class="editTask">
+                <i class="fa-solid fa-pen-nib"></i>
+              </button>
+              <button class="deleteTask">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
             </div>
-           
-                <div class="input">
-                    <input type="text"
-                    id="newTask"
-                    placeholder="Add new task">
-                    <button id="buttonAddTask">
-                        <i class="fa-solid fa-plus"></i>
-                    </button>
-                   </div>
-                   <ul id="tasksList">
-                   <li>
-                    <span class="taskText">
-                        First Task
-                      </span> 
-                      <div class="buttons">
-                        <button class="editTask">
-                            <i class="fa-solid fa-pen-nib"></i>
-                           </button>
-                           <button class="deleteTask">
-                            <i class="fa-solid fa-trash-can"></i>
-                           </button>
-                      </div>
-                     
-                   </li>
-                   
-                   
-                 </ul>
-            </div>
-        </main>
-</body>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
 </html>
